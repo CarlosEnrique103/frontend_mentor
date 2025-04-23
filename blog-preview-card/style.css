@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+:root {
+  --primary: #f4d04e;
+  --white: #fff;
+  --gray-500: #111111;
+  --gray-950: #6b6b6b;
+}
+
+body {
+  background: var(--primary);
+  font-family: "Figtree", sans-serif;
+}
+
+/* Globals fonts */
+
+.text-preset-1 {
+  font-size: 1.5rem;
+  line-height: 150%;
+  letter-spacing: 0px;
+  font-optical-sizing: auto;
+  font-weight: 800;
+}
+
+.text-preset-2 {
+  font-size: 1rem;
+  line-height: 150%;
+  letter-spacing: 0px;
+  font-optical-sizing: auto;
+  font-weight: 500;
+}
+
+.text-preset-3 {
+  font-size: 0.875rem;
+  line-height: 150%;
+  letter-spacing: 0px;
+  font-optical-sizing: auto;
+  font-weight: 500;
+}
+
+.text-preset-3-bold {
+  font-size: 0.875rem;
+  line-height: 150%;
+  letter-spacing: 0px;
+  font-optical-sizing: auto;
+  font-weight: 800;
+}
+
+.card {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 24rem;
+  border-radius: 1.25rem;
+  border: var(--gray-500) 1px solid;
+  background-color: var(--white);
+  padding: 1.25rem;
+  box-shadow: 0.5rem 0.5rem 0px 0px var(--gray-500);
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.card-image {
+  width: 100%;
+  height: 12.5rem;
+  object-fit: cover;
+  border-radius: 1.25rem;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.card-body--paragraph {
+  color: var(--gray-950);
+}
+
+.card-footer {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+.card-footer img {
+  width: 2rem;
+  height: auto;
+}
+
+.tag {
+  background: var(--primary);
+  border-radius: 4px;
+  width: 5.125rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media only screen and (max-width: 375px) {
+  .card {
+    width: 19.8125rem;
+  }
+
+  .text-preset-1 {
+    font-size: 1.25rem;
+    line-height: 150%;
+    letter-spacing: 0px;
+    font-optical-sizing: auto;
+    font-weight: 800;
+  }
+
+  .text-preset-2 {
+    font-size: 1rem;
+    line-height: 150%;
+    letter-spacing: 0px;
+    font-optical-sizing: auto;
+    font-weight: 500;
+  }
+
+  .text-preset-3 {
+    font-size: 0.75rem;
+    line-height: 150%;
+    letter-spacing: 0px;
+    font-optical-sizing: auto;
+    font-weight: 500;
+  }
+
+  .text-preset-3-bold {
+    font-size: 0.75rem;
+    line-height: 150%;
+    letter-spacing: 0px;
+    font-optical-sizing: auto;
+    font-weight: 800;
+  }
+}
