@@ -54,6 +54,14 @@ body {
   font-weight: 800;
 }
 
+.card-body--title:hover {
+  color: var(--primary);
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+/* CARD */
+
 .card {
   position: absolute;
   top: 50%;
