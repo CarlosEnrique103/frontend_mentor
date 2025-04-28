@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+:root {
+  --white: #fff;
+  --slate-300: #d5e1ef;
+  --slate-500: #68778d;
+  --slate-900: #1f314f;
+}
+
+body {
+  background: var(--slate-300);
+  font-family: "Outfit", sans-serif;
+  font-size: 1rem;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Globals fonts */
+
+.text-preset-1 {
+  font-size: 2.2rem;
+  line-height: 120%;
+  letter-spacing: 0px;
+  font-optical-sizing: auto;
+  font-weight: 700;
+}
+
+.text-preset-2 {
+  font-size: 1.5rem;
+  line-height: 140%;
+  letter-spacing: 0px;
+  font-optical-sizing: auto;
+  font-weight: 400;
+}
+
+/* Card */
+
+.card {
+  width: 32rem;
+  background: var(--white);
+  min-width: 32rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+  padding: 1.6rem;
+  padding-bottom: 4rem;
+  border-radius: 2rem;
+}
+
+.card img {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 1.25rem;
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+  padding-left: 1.6rem;
+  padding-right: 1.6rem;
+}
+
+.card h1 {
+  text-align: center;
+  color: var(--slate-900);
+}
+
+.card p {
+  text-align: center;
+  color: var(--slate-500);
+}
