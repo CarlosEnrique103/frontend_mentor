@@ -47,6 +47,7 @@ body {
 
 .card {
   width: 32rem;
+  height: 49.9rem;
   background: var(--white);
   min-width: 32rem;
   display: flex;
