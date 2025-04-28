@@ -59,6 +59,9 @@ body {
 
 .card img {
   width: 100%;
+  height: auto;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
   object-fit: cover;
   border-radius: 1.25rem;
 }
