@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+:root {
+  --color-black: #151515;
+  --color-green: #4ee1a0;
+  --color-dark-grey: #242424;
+  --color-grey: #d9d9d9;
+  --color-white: #ffffff;
+}
+
+body {
+  background: var(--color-black);
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 1rem;
+  height: 100vh;
+  color: var(--color-white);
+  position: relative;
+}
+
+/* Globals fonts */
+
+.text-heading-xl {
+  font-size: 8.8rem;
+  line-height: 8.8rem;
+  letter-spacing: -0.25rem;
+  font-optical-sizing: auto;
+  font-weight: 700;
+}
+
+.text-heading-l {
+  font-size: 4.8rem;
+  line-height: 5.6rem;
+  letter-spacing: -0.15rem;
+  font-optical-sizing: auto;
+  font-weight: 700;
+}
+
+.text-heading-l {
+  font-size: 2.4rem;
+  line-height: 3.2rem;
+  font-optical-sizing: auto;
+  font-weight: 700;
+}
+
+.text-body-l {
+  font-size: 1.8rem;
+  line-height: 2.8rem;
+  font-optical-sizing: auto;
+  font-weight: 500;
+}
+
+/* Patterns Circle */
+
+.pattern-rings-1 {
+  position: absolute;
+  top: 13.3rem;
+  left: -10rem;
+}
+
+/* Wrapper */
+.wrapper {
+  width: 110rem;
+  max-width: 110rem;
+  margin: 0 auto;
+  position: relative;
+}
+
+/* Header */
+
+header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 4.3rem;
+}
+
+header h1 {
+  font-size: 3.2rem;
+  line-height: 3.2rem;
+  letter-spacing: -0.044rem;
+  font-optical-sizing: auto;
+  font-weight: 700;
+}
+
+header ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 3.2rem;
+  margin-right: 3rem;
+}
+
+/* Section: Hero */
+
+.hero {
+  width: 100%;
+}
+
+.hero-content {
+  width: 70.9rem;
+  max-width: 70.9rem;
+  margin-top: 13rem;
+}
+
+.hero-image {
+  position: absolute;
+  top: 0rem;
+  right: 0rem;
+  width: 44.5rem;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.hero-content h1 {
+  margin-bottom: 4.3rem;
+}
+
+.underline-text {
+  -webkit-text-stroke: 0.1rem var(--color-black);
+  position: relative;
+}
+
+.rectangle {
+  width: 100%;
+  height: 0.6rem;
+
+  background: var(--color-green);
+  position: absolute;
+  right: 0;
+  bottom: 0.6rem;
+  z-index: -1;
+}
+
+.hero-content p {
+  color: var(--color-grey);
+  width: 44.5rem;
+}
+
+.hero-circle {
+  position: absolute;
+  top: 52.1rem;
+  right: 38rem;
+}
