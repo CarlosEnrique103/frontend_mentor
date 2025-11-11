@@ -1,0 +1,48 @@
+body {
+  font-family: "NotoSans", sans-serif;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 140%;
+}
+
+.text-preset-1 {
+  font-size: 3.4rem;
+  font-weight: 700;
+  line-height: 100%;
+  letter-spacing: -1px;
+}
+
+.text-preset-2 {
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 120%;
+  letter-spacing: -0.2px;
+}
+
+.text-preset-3 {
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 140%;
+  letter-spacing: -0.3px;
+}
+
+.text-preset-4 {
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 140%;
+  letter-spacing: -0.3px;
+}
+
+.text-preset-5 {
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 140%;
+  letter-spacing: -0.5px;
+}
+
+.text-preset-6 {
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 140%;
+  letter-spacing: -0.5px;
+}
