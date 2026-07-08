@@ -3,5 +3,7 @@
 @import url("./base/_base.css");
 @import url("./base/_typography.css");
 
-@import url("./components/_background.css");
+@import url("./components/_accordion.css");
 @import url("./components/_card.css");
+@import url("./components/_divider.css");
+@import url("./components/_logo.css");

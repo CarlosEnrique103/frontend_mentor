@@ -41,4 +41,16 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+
+  background-color: var(--color-purple-100);
+  background-image: url("../../assets/images/background-pattern-mobile.svg");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: 100% auto;
+}
+
+@media (min-width: 768px) {
+  body {
+    background-image: url("../../assets/images/background-pattern-desktop.svg");
+  }
 }

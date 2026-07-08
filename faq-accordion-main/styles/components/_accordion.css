@@ -1,0 +1,50 @@
+.accordion {
+  display: flex;
+  flex-direction: column;
+}
+
+.accordion__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.accordion__header h2 {
+  color: var(--color-purple-950);
+  transition: all 0.2s ease-in-out;
+}
+
+.accordion__header h2:hover {
+  color: var(--color-violet-600);
+  cursor: pointer;
+}
+
+.accordion__header .accordion__button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.accordion__content {
+  max-height: 0;
+  padding-top: 0rem;
+  overflow: hidden;
+  opacity: 0;
+  transform: translateY(-5px);
+  padding-bottom: 0rem;
+  transition:
+    max-height 0.3s ease,
+    opacity 0.3s ease,
+    transform 0.3s ease;
+}
+
+.accordion__content--active {
+  max-height: 20rem;
+  opacity: 1;
+  transform: translateY(0);
+  padding-top: 2.4rem;
+}
+.accordion__content p {
+  color: var(--color-purple-600);
+}

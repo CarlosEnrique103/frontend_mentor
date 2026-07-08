@@ -1,22 +1,18 @@
 .card {
   border-radius: 1.6rem;
-  padding: 4rem;
+  padding: 2.4rem;
   box-shadow: 0 32px 56px 0 rgba(80, 0, 118, 0.1);
   background: var(--color-white);
   width: 32.7rem;
-  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
 }
 
 /* Tablet */
 @media (min-width: 768px) {
   .card {
     width: 60rem;
-  }
-}
-
-/* Desktop */
-@media (min-width: 1440px) {
-  .card {
-    width: 60rem;
+    gap: 4rem;
   }
 }
