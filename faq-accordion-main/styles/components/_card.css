@@ -6,13 +6,11 @@
   width: 32.7rem;
   display: flex;
   flex-direction: column;
-  gap: 2.4rem;
 }
 
 /* Tablet */
 @media (min-width: 768px) {
   .card {
     width: 60rem;
-    gap: 4rem;
   }
 }
