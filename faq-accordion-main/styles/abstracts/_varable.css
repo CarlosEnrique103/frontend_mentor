@@ -1,0 +1,18 @@
+:root {
+  --color-white: #ffffff;
+  --color-black: #000000;
+  --color-purple-950: #301534;
+  --color-purple-600: #8b6990;
+  --color-purple-100: #f8eeff;
+
+  --color-violet-600: #ad28eb;
+
+  --gradient-light: linear-gradient(180deg, #ebf2fc 0%, #eefbf9 100%);
+  --gradient-dark: linear-gradient(180deg, #04091b 0%, #091540 100%);
+
+  --spacing-100: 0.8rem;
+  --spacing-200: 1.6rem;
+  --spacing-300: 2.4rem;
+  --spacing-400: 3.2rem;
+  --spacing-500: 4rem;
+}

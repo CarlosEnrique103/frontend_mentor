@@ -1,0 +1,31 @@
+body {
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 140%;
+}
+
+.text-preset-1 {
+  font-size: 3.4rem;
+  line-height: 100%;
+  letter-spacing: -0;
+
+  font-weight: 700;
+}
+
+.text-preset-2 {
+  font-size: 1.8rem;
+  line-height: 2.1rem;
+  letter-spacing: -0;
+  font-weight: 600;
+}
+
+.text-preset-3 {
+  font-size: 3.4rem;
+  font-weight: 700;
+  line-height: 100%;
+  letter-spacing: -1px;
+  font-weight: 400;
+}
