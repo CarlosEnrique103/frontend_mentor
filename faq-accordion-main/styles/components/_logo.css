@@ -1,0 +1,17 @@
+.logo {
+  height: 3.8rem;
+}
+
+/* Tablet */
+@media (min-width: 768px) {
+  .logo {
+    width: 6.6rem;
+  }
+}
+
+/* Desktop */
+@media (min-width: 1440px) {
+  .logo {
+    width: 6.6rem;
+  }
+}

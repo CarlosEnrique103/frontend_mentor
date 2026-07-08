@@ -1,7 +1,22 @@
 .card {
   border-radius: 1.6rem;
-  border: 1px solid #e3e3e3;
   padding: 4rem;
   box-shadow: 0 32px 56px 0 rgba(80, 0, 118, 0.1);
-  background: var(--colors-white);
+  background: var(--color-white);
+  width: 32.7rem;
+  z-index: 1;
+}
+
+/* Tablet */
+@media (min-width: 768px) {
+  .card {
+    width: 60rem;
+  }
+}
+
+/* Desktop */
+@media (min-width: 1440px) {
+  .card {
+    width: 60rem;
+  }
 }

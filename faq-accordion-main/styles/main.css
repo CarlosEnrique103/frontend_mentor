@@ -3,4 +3,5 @@
 @import url("./base/_base.css");
 @import url("./base/_typography.css");
 
+@import url("./components/_background.css");
 @import url("./components/_card.css");

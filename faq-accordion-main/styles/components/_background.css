@@ -1,0 +1,19 @@
+.background {
+  width: 100%;
+  aspect-ratio: 375 / 232;
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  background-image: url("../../assets/images/background-pattern-mobile.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+@media (min-width: 768px) {
+  .background {
+    aspect-ratio: 1440 / 320;
+    background-image: url("../../assets/images/background-pattern-desktop.svg");
+  }
+}

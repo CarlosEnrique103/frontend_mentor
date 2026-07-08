@@ -6,10 +6,10 @@ body {
 }
 
 .text-preset-1 {
-  font-size: 3.4rem;
-  font-weight: 700;
-  line-height: 100%;
-  letter-spacing: -1px;
+  font-size: 5.6rem;
+  font-family: "NotoSans", sans-serif;
+  line-height: 6.6rem;
+  letter-spacing: 0;
 }
 
 .text-preset-2 {
